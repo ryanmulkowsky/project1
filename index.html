@@ -7,38 +7,66 @@
   <meta name="description" content="Hollywood Squares">
   <meta name="author" content="Ryan Mulkowsky">
 
-  <link rel="stylesheet" type="text/css" href="lib/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
   <h1>Hollywood Squares</h1>
 
-  <div id="column1">
-    <div class="btn-group">
-      <button type="button" class="btn btn-info btn-lg">#</button>
-      <button type="button" class="btn btn-info btn-lg">#</button>
-      <button type="button" class="btn btn-info btn-lg">#</button>
+    <div id="column1">
+      <div class="btn-group">
+        <button type="button" class="btn btn-info">#</button>
+        <button type="button" class="btn btn-info">#</button>
+        <button type="button" class="btn btn-info">#</button>
+      </div>
     </div>
-  </div>
 
-  <div id="column2">
-    <div class="btn-group">
-      <button type="button" class="btn btn-info btn-lg">#</button>
-      <button type="button" class="btn btn-info btn-lg">#</button>
-      <button type="button" class="btn btn-info btn-lg">#</button>
+    <div class="panel panel-info playerX">
+      <div class="panel-heading">Score</div>
+      <div class="panel-body"></div>
     </div>
-  </div>
 
-  <div id="column3">
-    <div class="btn-group">
-      <button type="button" class="btn btn-info btn-lg">#</button>
-      <button type="button" class="btn btn-info btn-lg">#</button>
-      <button type="button" class="btn btn-info btn-lg">#</button>
+    <div class="panel panel-info playerO">
+      <div class="panel-heading">Score</div>
+      <div class="panel-body"></div>
     </div>
-  </div>
 
-  <script type="text/javascript" src="lib/jquery.js" defer></script>
-  <script type="text/javascript" src="app.js" defer></script>
+    <div id="column2">
+      <div class="btn-group">
+        <button type="button" class="btn btn-info">#</button>
+        <button type="button" class="btn btn-info">#</button>
+        <button type="button" class="btn btn-info">#</button>
+      </div>
+    </div>
+
+    <div id="column3">
+      <div class="btn-group">
+        <button type="button" class="btn btn-info">#</button>
+        <button type="button" class="btn btn-info">#</button>
+        <button type="button" class="btn btn-info">#</button>
+      </div>
+    </div>
+
+    <div id="new-game">
+      <button type="button" class="btn btn-default">New Game</button>
+    </div>
+
+    <div id="reset-score">
+      <button type="button" class="btn btn-default">Reset Score</button>
+    </div>
+
+    <br><br>
+
+    <div id="label-playerX">
+      <h3><span class = "label label-default">Player X</span></h3>
+    </div>
+
+    <div id="label-playerO">
+      <h3><span class = "label label-default">Player O</span></h3>
+    </div>
+
+  <script type="text/javascript" src="js/jquery.js" defer></script>
+  <script type="text/javascript" src="js/app.js" defer></script>
 </body>
 </html>
