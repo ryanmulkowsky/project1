@@ -25,24 +25,24 @@ h1 {
   padding: 5px;
 }
 
-.panel.panel-info.playerX {
+.panel.panel-info.player1 {
   float: left;
   margin-left: 400px;
   font-size: 20px;
 }
 
-.panel.panel-info.playerO {
+.panel.panel-info.player2 {
   float: right;
   margin-right: 400px;
   font-size: 20px;
 }
 
-#label-playerX {
+#label-player1 {
   float: left;
   margin-left: 400px;
 }
 
-#label-playerO {
+#label-player2 {
   float: right;
   margin-right: 400px;
 }
