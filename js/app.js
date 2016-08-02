@@ -14,11 +14,18 @@ btn0.onclick = function() {
 }
 
 ag0.onclick = function() {
+  if (true) {
     modal0.style.display = "none";
+    $("#myBtn0").css("background", "red");
+  }
 }
 
 dis0.onclick = function() {
+  if (true) {
     modal0.style.display = "none";
+    $("#myBtn0").css("background", "green");
+    document.getElementById("myBtn0").disabled = true;
+  }
 }
 
 span0.onclick = function() {
@@ -47,11 +54,18 @@ btn1.onclick = function() {
 }
 
 ag1.onclick = function() {
+  if (true) {
     modal1.style.display = "none";
+    $("#myBtn1").css("background", "green");
+    document.getElementById("myBtn1").disabled = true;
+  }
 }
 
 dis1.onclick = function() {
+  if (true) {
     modal1.style.display = "none";
+    $("#myBtn1").css("background", "red");
+  }
 }
 
 span1.onclick = function() {
@@ -80,11 +94,18 @@ btn2.onclick = function() {
 }
 
 ag2.onclick = function() {
+  if (true) {
     modal2.style.display = "none";
+    $("#myBtn2").css("background", "red");
+  }
 }
 
 dis2.onclick = function() {
+  if (true) {
     modal2.style.display = "none";
+    $("#myBtn2").css("background", "green");
+    document.getElementById("myBtn2").disabled = true;
+  }
 }
 
 span2.onclick = function() {
@@ -113,11 +134,18 @@ btn3.onclick = function() {
 }
 
 ag3.onclick = function() {
+  if (true) {
     modal3.style.display = "none";
+    $("#myBtn3").css("background", "green");
+    document.getElementById("myBtn3").disabled = true;
+  }
 }
 
 dis3.onclick = function() {
+  if (true) {
     modal3.style.display = "none";
+    $("#myBtn3").css("background", "red");
+  }
 }
 
 span3.onclick = function() {
@@ -146,11 +174,18 @@ btn4.onclick = function() {
 }
 
 ag4.onclick = function() {
+  if (true) {
     modal4.style.display = "none";
+    $("#myBtn4").css("background", "green");
+    document.getElementById("myBtn4").disabled = true;
+  }
 }
 
 dis4.onclick = function() {
+  if (true) {
     modal4.style.display = "none";
+    $("#myBtn4").css("background", "red");
+  }
 }
 
 span4.onclick = function() {
@@ -179,11 +214,18 @@ btn5.onclick = function() {
 }
 
 ag5.onclick = function() {
+  if (true) {
     modal5.style.display = "none";
+    $("#myBtn5").css("background", "red");
+  }
 }
 
 dis5.onclick = function() {
+  if (true) {
     modal5.style.display = "none";
+    $("#myBtn5").css("background", "green");
+    document.getElementById("myBtn5").disabled = true;
+  }
 }
 
 span5.onclick = function() {
@@ -212,11 +254,18 @@ btn6.onclick = function() {
 }
 
 ag6.onclick = function() {
+  if (true) {
     modal6.style.display = "none";
+    $("#myBtn6").css("background", "green");
+    document.getElementById("myBtn6").disabled = true;
+  }
 }
 
 dis6.onclick = function() {
+  if (true) {
     modal6.style.display = "none";
+    $("#myBtn6").css("background", "red");
+  }
 }
 
 span6.onclick = function() {
@@ -245,11 +294,18 @@ btn7.onclick = function() {
 }
 
 ag7.onclick = function() {
+  if (true) {
     modal7.style.display = "none";
+    $("#myBtn7").css("background", "green");
+    document.getElementById("myBtn7").disabled = true;
+  }
 }
 
 dis7.onclick = function() {
+  if (true) {
     modal7.style.display = "none";
+    $("#myBtn7").css("background", "red");
+  }
 }
 
 span7.onclick = function() {
@@ -278,11 +334,18 @@ btn8.onclick = function() {
 }
 
 ag8.onclick = function() {
+  if (true) {
     modal8.style.display = "none";
+    $("#myBtn8").css("background", "red");
+  }
 }
 
 dis8.onclick = function() {
+  if (true) {
     modal8.style.display = "none";
+    $("#myBtn8").css("background", "green");
+    document.getElementById("myBtn8").disabled = true;
+  }
 }
 
 span8.onclick = function() {
