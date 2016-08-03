@@ -383,4 +383,5 @@ reset.onclick = function() {
 
 // Scoreboard
 
+// Was not able to implement scoreboard function as hoped!
 
