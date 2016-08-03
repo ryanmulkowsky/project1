@@ -27,31 +27,15 @@ h1 {
   padding: 5px;
 }
 
-.panel.panel-info.player1 {
-  float: left;
-  margin-left: 400px;
-  font-size: 20px;
-}
-
-.panel.panel-info.player2 {
+.panel.panel-info {
   float: right;
-  margin-right: 400px;
+  margin-right: 560px;
   font-size: 20px;
-}
-
-#label-player1 {
-  float: left;
-  margin-left: 400px;
-}
-
-#label-player2 {
-  float: right;
-  margin-right: 400px;
 }
 
 #new-game {
   float: left;
-  margin-left: 660px;
+  margin-left: 550px;
 }
 
 .modal-header {

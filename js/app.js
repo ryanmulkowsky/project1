@@ -24,6 +24,7 @@ dis0.onclick = function() {
   if (true) {
     modal0.style.display = "none";
     $("#myBtn0").css("background", "green");
+    // document.getElementById("p2Score").innerHTML = "100";
     document.getElementById("myBtn0").disabled = true;
   }
 }
@@ -57,6 +58,7 @@ ag1.onclick = function() {
   if (true) {
     modal1.style.display = "none";
     $("#myBtn1").css("background", "green");
+    // document.getElementById("p2Score").innerHTML = "100";
     document.getElementById("myBtn1").disabled = true;
   }
 }
