@@ -1,3 +1,5 @@
+// var score = 0;
+
 // Modal - Cell 0
 var modal0 = document.getElementById('myModal0');
 
@@ -25,6 +27,8 @@ dis0.onclick = function() {
   if (true) {
     modal0.style.display = "none";
     $("#myBtn0").css("background", "green");
+ //   var score = window.score + 1;
+ //   $("#scoreb").html(score);
     document.getElementById("myBtn0").disabled = true;
   }
 }
@@ -58,6 +62,8 @@ ag1.onclick = function() {
   if (true) {
     modal1.style.display = "none";
     $("#myBtn1").css("background", "green");
+//    var score = window.score + 1;
+//    $("#scoreb").html(score);
     document.getElementById("myBtn1").disabled = true;
   }
 }
@@ -374,3 +380,7 @@ var reset = document.getElementById("new-game");
 reset.onclick = function() {
   $('.btn.btn-info').prop("disabled", false).css("background", "#31b0d5");
 }
+
+// Scoreboard
+
+
