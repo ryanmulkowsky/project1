@@ -17,6 +17,7 @@ ag0.onclick = function() {
   if (true) {
     modal0.style.display = "none";
     $("#myBtn0").css("background", "red");
+    document.getElementById("myBtn0").disabled = true;
   }
 }
 
@@ -24,7 +25,6 @@ dis0.onclick = function() {
   if (true) {
     modal0.style.display = "none";
     $("#myBtn0").css("background", "green");
-    // document.getElementById("p2Score").innerHTML = "100";
     document.getElementById("myBtn0").disabled = true;
   }
 }
@@ -58,7 +58,6 @@ ag1.onclick = function() {
   if (true) {
     modal1.style.display = "none";
     $("#myBtn1").css("background", "green");
-    // document.getElementById("p2Score").innerHTML = "100";
     document.getElementById("myBtn1").disabled = true;
   }
 }
@@ -67,6 +66,7 @@ dis1.onclick = function() {
   if (true) {
     modal1.style.display = "none";
     $("#myBtn1").css("background", "red");
+    document.getElementById("myBtn1").disabled = true;
   }
 }
 
@@ -99,6 +99,7 @@ ag2.onclick = function() {
   if (true) {
     modal2.style.display = "none";
     $("#myBtn2").css("background", "red");
+    document.getElementById("myBtn2").disabled = true;
   }
 }
 
@@ -147,6 +148,7 @@ dis3.onclick = function() {
   if (true) {
     modal3.style.display = "none";
     $("#myBtn3").css("background", "red");
+    document.getElementById("myBtn3").disabled = true;
   }
 }
 
@@ -187,6 +189,7 @@ dis4.onclick = function() {
   if (true) {
     modal4.style.display = "none";
     $("#myBtn4").css("background", "red");
+    document.getElementById("myBtn4").disabled = true;
   }
 }
 
@@ -219,6 +222,7 @@ ag5.onclick = function() {
   if (true) {
     modal5.style.display = "none";
     $("#myBtn5").css("background", "red");
+    document.getElementById("myBtn5").disabled = true;
   }
 }
 
@@ -267,6 +271,7 @@ dis6.onclick = function() {
   if (true) {
     modal6.style.display = "none";
     $("#myBtn6").css("background", "red");
+    document.getElementById("myBtn6").disabled = true;
   }
 }
 
@@ -307,6 +312,7 @@ dis7.onclick = function() {
   if (true) {
     modal7.style.display = "none";
     $("#myBtn7").css("background", "red");
+    document.getElementById("myBtn7").disabled = true;
   }
 }
 
@@ -339,6 +345,7 @@ ag8.onclick = function() {
   if (true) {
     modal8.style.display = "none";
     $("#myBtn8").css("background", "red");
+    document.getElementById("myBtn8").disabled = true;
   }
 }
 
