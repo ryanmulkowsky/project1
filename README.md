@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is my game for project 1 which is a "True/False" trivia game. Player is able to click on open square and a "true/false" question pops up. Player can answer question and square will either turn red for "incorrect" or green for "correct". That square will become disabled so player cannot go back and answer question. Player will continue to answer questions until gameboard is completed. Player can hit "Reset Game" to play the game again.
+For project 1, I created a "True/False" trivia game. Player is able to click on open square and a "true/false" question pops up. Player can answer question and square will either turn red for "incorrect" or green for "correct". That square will become disabled so player cannot go back and answer question. Player will continue to answer questions until gameboard is completed. Player can hit "Reset Game" to play the game again.
 
-Live Site: [Link to github pages]
+**Live Site:** <https://ryanmulkowsky.github.io/project1>
 
 ## Technologies Used
 
