@@ -366,3 +366,11 @@ window.onclick = function(event) {
         modal8.style.display = "none";
     }
 }
+
+// Reset Game
+
+var reset = document.getElementById("new-game");
+
+reset.onclick = function() {
+  $('.btn.btn-info').prop("disabled", false).css("background", "#31b0d5");
+}
